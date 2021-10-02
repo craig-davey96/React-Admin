@@ -8,6 +8,17 @@
     position: relative;
 }
 
+.logo_block{
+    height: 100px;
+    padding: 16px;
+    text-align: center;
+}
+
+.logo_block img{
+    width: auto;
+    height: 100%;
+}
+
 .Navigation ul{
     margin: 0px;
     padding: 10px;

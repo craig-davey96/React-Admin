@@ -5,6 +5,9 @@ import {NavLink} from "react-router-dom";
 
 const Navigation = () => (
     <nav className={styles.Navigation}>
+        <div className={styles.logo_block}>
+            <img src="logo.svg" alt=""/>
+        </div>
         <div className={styles.navigation_user_block}></div>
         <ul>
             <li><NavLink activeClassName={styles.menu_link_active} exact="/" to="/">Dashboard</NavLink></li>
