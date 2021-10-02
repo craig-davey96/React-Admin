@@ -9,6 +9,10 @@ import {Route, Switch} from "react-router-dom";
 import Dashboard from "../../pages/Dashboard/Dashboard";
 import Chat from "../../pages/Chat/Chat";
 import Components from "../../pages/Components/Components";
+import Calendar from "../../pages/Calendar/Calendar";
+import Contacts from "../../pages/Contacts/Contacts";
+import Forms from "../../pages/Forms/Forms";
+import Tables from "../../pages/Tables/Tables";
 
 const Routes = () => (
     <AnimatedSwitch
@@ -20,7 +24,10 @@ const Routes = () => (
         <Route path="/" exact component={Dashboard}></Route>
         <Route path="/dashboard" exact component={Dashboard}></Route>
         <Route path="/chat" exact component={Chat}></Route>
-        <Route path="/components" exact component={Components}></Route>
+        <Route path="/calendar" exact component={Calendar}></Route>
+        <Route path="/contacts" exact component={Contacts}></Route>
+        <Route path="/forms" exact component={Forms}></Route>
+        <Route path="/tables" exact component={Tables}></Route>
     </AnimatedSwitch>
 );
 

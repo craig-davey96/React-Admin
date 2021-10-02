@@ -44,6 +44,17 @@
     font-size: 14px;
 }
 
+.Navigation ul li a svg,
+.Navigation ul li a p{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+.Navigation ul li a svg{
+    margin-right: 5px;
+}
+
 .Navigation ul li a:hover{
     padding: 8px 15px 8px 20px;
 }
@@ -55,4 +66,20 @@
 
 .navigation_user_block{
 
+}
+
+.Navigation ul li ul{
+    margin: 0px;
+    padding: 0;
+    background: rgba(0,0,0,0.1);
+    display: none;
+}
+
+.Navigation ul li ul li{
+    color: #FFF;
+    margin: 0px;
+}
+
+.navigation_open + ul{
+    display: block !important;
 }
