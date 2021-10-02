@@ -1,0 +1,10 @@
+.Routes {}
+
+.switch_wrapper {
+    position: relative;
+}
+
+.switch_wrapper > div {
+    width: 100%;
+    position: absolute;
+}

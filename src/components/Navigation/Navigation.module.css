@@ -1,0 +1,47 @@
+.Navigation {
+    width: 250px;
+    height: 100vh;
+    background: #7367f0;
+    display: block;
+    float: left;
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.2);
+    position: relative;
+}
+
+.Navigation ul{
+    margin: 0px;
+    padding: 10px;
+    display: block;
+    clear: both;
+}
+
+.Navigation ul li{
+    margin: 0 0 6px;
+    padding: 0px;
+    display: block;
+    clear: both;
+}
+
+.Navigation ul li a{
+    display: block;
+    clear: both;
+    padding: 8px 15px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    font-size: 14px;
+}
+
+.Navigation ul li a:hover{
+    padding: 8px 15px 8px 20px;
+}
+
+.menu_link_active{
+    background: #FFF;
+    color: #7367f0 !important;
+}
+
+.navigation_user_block{
+
+}
