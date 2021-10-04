@@ -1,0 +1,45 @@
+.TopNavigation {
+    width: 100%;
+    height: 60px;
+    display: block;
+    clear: both;
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.2);
+    background: #FFF;
+    margin: 0 0 15px 0;
+}
+
+.TopNavigation h3{
+    float: left;
+    padding: 20px 15px;
+    color: #b80000;
+    font-size: 20px;
+    line-height: 1em;
+    margin: 0px;
+}
+
+.TopNavigationActions{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    float: right;
+}
+
+.TopNavigationActions li{
+    display: block;
+    float: left;
+}
+
+.TopNavigationActions li a{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    color: #b80000 !important;
+    font-size: 20px;
+}
+
+.TopNavigationActions li a svg{
+    margin: auto;
+}

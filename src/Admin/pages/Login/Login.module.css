@@ -1,0 +1,47 @@
+.Login {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background: #f5f6f8;
+}
+
+.login_block{
+    width: 800px;
+    margin: auto;
+    background: #FFF;
+    display: flex;
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.2);
+
+}
+.login_block:after{
+    display: block;
+    clear: both;
+    content: ' ';
+}
+
+.login_block_left{
+    width: 40%;
+    padding: 30px;
+    display: flex;
+    background: #FFF;
+    float: left;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.login_block_left img{
+    width: 150px;
+    margin: auto;
+}
+
+.login_block_right{
+    width: 60%;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}

@@ -1,0 +1,19 @@
+.form_field{
+    margin: 0px 0 20px;
+    padding: 0px;
+    display: block;
+    clear: both;
+}
+
+.form_field input[type="email"],
+.form_field input[type="password"],
+.form_field input[type="text"]{
+    width: 100%;
+    margin: 0px;
+    padding: 7.5px;
+    display: block;
+    clear: both;
+    border-radius: 0px;
+    border: 1px solid #7c7c7c;
+    outline: none !important;
+}

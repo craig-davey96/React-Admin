@@ -1,0 +1,193 @@
+.Chat{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+.ChatUsers{
+    width: 300px;
+    height: calc(100vh - 120px);
+    display: block;
+    background: #FFF;
+    position: relative;
+    z-index: 1;
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.2);
+    overflow-y: auto;
+}
+
+.ChatUsers ul{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    clear: both;
+}
+.ChatUsers ul li{
+    margin: 0px;
+    display: block;
+    clear: both;
+}
+.ChatUsers ul li a{
+    display: block;
+    clear: both;
+    padding: 15px;
+    background: none;
+    transition: 0.3s ease-in-out;
+    text-decoration: none !important;
+    font-size: 14px;
+    color: #b80000;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.ChatUsers ul li a:hover{
+    background: #f1f1f1;
+}
+
+.ChatWindow{
+    flex: 1;
+    height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.2);
+    background: #FFF;
+}
+
+.UserState{
+    padding: 6px 0px;
+    float: right;
+}
+
+.UserState .active{
+    width: 10px;
+    height: 10px;
+    display: block;
+    clear: both;
+    background: #00ff00;
+    border-radius: 10px;
+}
+
+.UserState .inactive{
+    width: 10px;
+    height: 10px;
+    display: block;
+    clear: both;
+    background: #ff0000;
+    border-radius: 10px;
+}
+
+.ChatWindowTop{
+    width: 100%;
+    height:  45px;
+    display: block;
+    clear: both;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+}
+
+.ChatWindowContent{
+    width: 100%;
+    height: calc(100% - 141px);
+    background: url("../../../assets/chat-bkg.svg");
+    background-size: 150px;
+    display: block;
+    clear: both;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.ChatWindowBottom{
+    width: 100%;
+    height: 96px;
+    display: block;
+    clear: both;
+    box-shadow: 0px -1px 3px 0px rgba(0,0,0,0.2);
+}
+
+.activeChat{
+    background: #b80000 !important;
+    color: #FFF !important;
+}
+
+.ChatForm{
+    margin: 0px;
+    padding: 15px;
+    display: block;
+    clear: both;
+}
+
+.ChatForm input{
+    width: calc(100% - 65px);
+    height: 60px;
+    display: block;
+    float: left;
+    border-radius: 0px;
+    border: 1px solid #eee;
+    outline: none !important;
+    resize: none;
+    line-height: 1em;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.ChatForm button{
+    width: 50px;
+    height: 60px;
+    float: right;
+    display: block;
+    border: 0px;
+    background: #b80000;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.ChatWindow .message{
+    width: 100%;
+    display: block;
+    clear: both;
+    margin: 0 0 10px;
+}
+
+.ChatWindow .message div{
+    max-width: 350px;
+    display: inline-block;
+    margin: 0px;
+    padding: 5px 15px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.ChatWindow .message.sent{
+    text-align: left;
+}
+
+.ChatWindow .message.sent div{
+    background: #00b1ff;
+    color: #FFF;
+}
+
+.ChatWindow .message.sent div:after{
+    border-right: 7.5px solid #00b1ff;
+    border-top: 7.5px solid transparent;
+    border-bottom: 7.5px solid transparent;
+    content: ' ';
+    position: absolute;
+    right: 100%;
+    top: 7.5px;
+}
+
+.ChatWindow .message.received{
+    text-align: right;
+}
+
+.ChatWindow .message.received div{
+    background: #b80000;
+    color: #FFF;
+
+}
+
+.ChatWindow .message.received div:after{
+    border-left: 7.5px solid #b80000;
+    border-top: 7.5px solid transparent;
+    border-bottom: 7.5px solid transparent;
+    content: ' ';
+    position: absolute;
+    left: 100%;
+    top: 7.5px;
+}

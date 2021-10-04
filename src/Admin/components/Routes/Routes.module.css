@@ -1,0 +1,15 @@
+.Routes {}
+
+.switch_wrapper {
+    height: calc(100vh);
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.switch_wrapper > div {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    display: block;
+}

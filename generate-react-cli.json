@@ -11,15 +11,57 @@
       "withStory": true,
       "withLazy": true
     },
-    "page": {
-      "path": "src/pages",
+    "admin": {
+      "path": "src/Admin/components",
+      "withStyle": true,
+      "withTest": false,
+      "withStory": true,
+      "withLazy": true
+    },
+    "adminPage": {
+      "path": "src/Admin/pages",
       "withLazy": true,
       "withStory": false,
       "withStyle": true,
       "withTest": true
     },
-    "layout": {
-      "path": "src/layout",
+    "adminSection": {
+      "path": "src/Admin/sections",
+      "withLazy": true,
+      "withStory": false,
+      "withStyle": true,
+      "withTest": true
+    },
+    "adminLayout": {
+      "path": "src/Admin/layout",
+      "withLazy": false,
+      "withStory": false,
+      "withStyle": false,
+      "withTest": true
+    },
+    "site": {
+      "path": "src/Site/components",
+      "withStyle": true,
+      "withTest": false,
+      "withStory": true,
+      "withLazy": true
+    },
+    "sitePage": {
+      "path": "src/Site/pages",
+      "withLazy": true,
+      "withStory": false,
+      "withStyle": true,
+      "withTest": true
+    },
+    "siteSection": {
+      "path": "src/Site/sections",
+      "withLazy": true,
+      "withStory": false,
+      "withStyle": true,
+      "withTest": true
+    },
+    "siteLayout": {
+      "path": "src/Site/layout",
       "withLazy": false,
       "withStory": false,
       "withStyle": false,
